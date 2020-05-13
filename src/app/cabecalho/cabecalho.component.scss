@@ -1,0 +1,85 @@
+$cor1: #fff;
+/*@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');*/
+$fundo: #fff;
+
+$cor-botao: #982a2a;
+
+
+.cabecalho{
+	background: $fundo;
+	height: 70px;
+	display: flex;
+	align-items:center;
+	padding: 5px;
+	width: 100%;
+	/*border-bottom: 1px solid #8d8d8d;*/
+	display: flex;
+	flex-direction: row;
+	box-shadow: 2px 2px 2px #dfe1e5;
+
+	a{
+		color: #000;
+		/*font-family: 'Reenie Beanie', cursive;*/
+		font-size: 1em;
+		margin-left: 40px;
+		float: left;
+
+	}
+	.menu-1{
+		width: 50%;
+	}
+	.menu-end{
+		width: 50%;
+		.botao-sair{
+			display: inline-block;
+		    font-weight: 400;
+		    text-align: center;
+		    vertical-align: middle;
+		    cursor: pointer;
+		    -webkit-user-select: none;
+		    -moz-user-select: none;
+		    -ms-user-select: none;
+		    user-select: none;
+		    background-color: transparent;
+		    border: 1px solid transparent;
+		    padding: .375rem .75rem;
+		    font-size: 1rem;
+		    line-height: 1.5;
+		    border-radius: .25rem;
+		    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+			margin-top: 1%;
+			width: 110px;
+			float: right;
+			margin-right: 40px;
+			/*font-family: 'Lora', serif;*/
+			transition:0.5s all ease;
+			/*text-transform: uppercase;*/
+			font-size: 1rem;
+			background: $cor-botao;
+			border: none;
+			border-radius: 0px;
+			height: calc(1.5em + .75rem + 2px);
+			color: #fff;
+				&:hover {
+			      -webkit-transition:0.5s all ease;
+			      transition:0.5s all ease;
+			      left:0;
+			      right:0;
+			      opacity:1;
+			      background: #fff;
+			      border: 1px solid $cor-botao;
+			      border-width: 2px;
+  				  border-image: linear-gradient(to right, $cor-botao,#f69e88);
+				border-image-slice: 1;
+			      color: $cor-botao;
+			      width: 140px;
+			      
+			  	}
+
+  
+ 
+			}
+
+
+		}
+	}
